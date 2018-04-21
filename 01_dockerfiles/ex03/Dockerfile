@@ -15,7 +15,7 @@ RUN		mkdir -p /root/go/src/github.com/gogits && \
 		go build .
 #Making sure that I'm running this all as root
 USER	root
-EXPOSE	3000
+EXPOSE	3000 22
 #Revving that engine
 RUN		service mysql start
 #Pulling into place

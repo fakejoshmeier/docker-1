@@ -8,4 +8,5 @@ RUN		apt-get update && apt-get upgrade -qq && \
 		git clone https://github.com/fakejoshmeier/defaults yo && \
 		cd yo && mv .vimrc ~/.vimrc && cd && \
 		vim +PluginInstall +qall && \
-		echo "colorscheme desert" >> ~/.vimrc
+		echo "colorscheme desert" >> ~/.vimrc && \
+		apt-get moo

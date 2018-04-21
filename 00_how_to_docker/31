@@ -1,1 +1,1 @@
-docker service rm -rf $(docker service ls --format="{{.ID}}")
+docker service rm $(docker service ls --format="{{.ID}}")
